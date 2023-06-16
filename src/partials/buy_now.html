@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<title>Buy Now</title>
+<link rel="stylesheet" href="../css/buy_now.css"/>
+
+ <div
+      class="backdrop is-hidden"
+      data-modal
+      style="
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: beige;
+        top: 0;
+        left: 0;
+        background-color: rgba(46, 47, 66, 0.4);
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      "
+     > 
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="icon-close-modal" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-header">BUY <span class="now"> NOW </span></p>
+
+        <ul class="chocolate-cards-list list">
+            <li class="chocolate-card">
+              <img
+                src="./images/blackchocmodaldesktop.jpg"
+                alt="Black chocolate"
+                width="120"
+                height="107"
+              />
+              <div class="card-caption">
+                <button class="weight-btn">100 g</button>
+              </div>
+            </li>
+            <li class="chocolate-card">
+                <img
+                  src="./images/blackwhitechocmodaldesktop.jpg"
+                  alt="Black and white chocolate"
+                  width="120"
+                  height="107"
+                />
+                <div class="card-caption">
+                  <button class="weight-btn">200 g</button>
+                </div>
+              </li>
+              <li class="chocolate-card">
+                <img
+                  src="./images/milkchocmodaldesktop.jpg"
+                  alt="Milk chocolate"
+                  width="120"
+                  height="107"
+                />
+                <div class="card-caption">
+                    <button class="weight-btn">300 g</button>
+                </div>
+              </li>
+        </ul>
+
+        <form class="modal-contact-form">
+          <div class="personal-information-wrapper">
+            <div class="form-wrapper">
+              <label for="user-name" class="form-description">Personal information</label>
+              <div class="input--wrapper">
+                <input 
+                   id="user-name"
+                   type="text" 
+                   class="form-input" 
+                   name="user-name"
+                   required
+                   pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
+                   placeholder="Name"
+                   >
+                    
+                </div>
+                  
+            </div>
+
+             <div class="form-wrapper">
+              <!-- <label for="user-name" class="form-description">Name</label> -->
+              <div class="input-icon-wrapper">
+                <input 
+                   id="user-surname"
+                   type="text" 
+                   class="form-input" 
+                   name="user-name"
+                   required
+                   pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
+                   placeholder="Surname"
+                   >
+                    
+                </div>
+                  
+            </div>
+
+        </div>
+            
+            
+        
+          
+          <div class="form-wrapper">
+            <label for="user-phone" class="form-description">Email</label>
+            <div class="input-icon-wrapper">
+            <input 
+            id="user-phone"
+            type="tel" 
+            class="form-input" 
+            name="user-mail" 
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            placeholder="Enter your email"
+            />
+            
+          </div>
+          </div>
+          
+        
+          
+            <div class="form-wrapper">
+              <label for="user-email" class="form-description">Phone number</label>
+              <div class="input-icon-wrapper">
+              <input 
+                  id="user-email"
+                  type="text" 
+                  class="form-input" 
+                  name="user-phone" 
+                  placeholder="+380 | Phone number"
+
+                />
+                <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+              
+            </div>
+            </div>
+
+            <div class="form-wrapper">
+                <label for="user-email" class="form-description">Card number</label>
+                <div class="input-icon-wrapper">
+                <input 
+                    id="user-card"
+                    type="text" 
+                    class="form-input" 
+                    name="user-card" 
+                    placeholder="Enter card"
+  
+                  />
+                  <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+                
+              </div>
+              </div>
+            
+            
+              <div class="form-comment-wrapper">
+                <label for="user-comment" class="form-description">Comment</label>
+                <textarea 
+                    id="user-comment"
+                    class="form-comment" 
+                    name="user-comment" 
+                    placeholder="Enter text">
+                  </textarea>
+                    
+              </div>
+            
+                 
+              </div>
+          <button type="submit" class="form-submit-button">Submit</button>
+        </form>
+      </div> 
+    </div> 
+  
+
+    <script src="./js/modal.js"></script>
