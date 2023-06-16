@@ -1,0 +1,10 @@
+.hero{
+    width: 1136px;
+    height: 600px;
+    background-color: #FD9222;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
+    url(../img/hero-img-pc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
