@@ -21,21 +21,46 @@ color: #FFFFFF;
 }
 .section-advantages{
     background-color: #1E1823;
-    padding:20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    max-width: 428px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .container-advantages{
-    width: 335px;
-    margin: auto;
-   
-    
+    max-width: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media screen and (min-width: 768px){
+        max-width: 768px;
+        display: inline-block;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: auto;
+    margin-right: auto;
+    }
+    @media screen and (min-width: 1158px){
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.item-advantages{
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 60px;
+    }
+    @media screen and (min-width: 1158px){
+        flex-direction: row;
+    }
 }
