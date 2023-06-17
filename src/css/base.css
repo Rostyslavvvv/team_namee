@@ -9,6 +9,14 @@ h2 {
   line-height: 34px;
   letter-spacing: -0.03em;
 }
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+}
 
 .container {
   max-width: 375px;
