@@ -1,0 +1,55 @@
+.container-header{
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    .container-header{
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    .container-header{
+        max-width: 1200px
+    }
+    
+}
+.logo{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    margin-right: 4px;
+
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    
+
+}
+.logo-name{
+    font-style: italic;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.mobile-menu-open{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+    line-height: 0;
+}
+
+.mobile-header{
+    display: flex;
+    justify-content: space-between;
+}
