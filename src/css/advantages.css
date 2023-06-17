@@ -1,4 +1,4 @@
-.text-advantages {
+.item-advantages .text-advantages {
   width: 308px;
 
   font-family: 'Montserrat';
@@ -9,6 +9,8 @@
   letter-spacing: -0.02em;
 
   color: rgba(255, 255, 255, 0.7);
+
+  margin-bottom: 38px;
 }
 .title-section-advantages {
   font-family: 'Montserrat';
@@ -17,6 +19,8 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+
+  margin-bottom: 18px;
 }
 .section-advantages {
   background-color: #1e1823;
@@ -43,8 +47,8 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
-  @media screen and (min-width: 1158px) {
-    max-width: 1158px;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -60,7 +64,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
-  @media screen and (min-width: 1158px) {
+  @media screen and (min-width: 1200px) {
     flex-direction: row;
     column-gap: 70px;
   }
