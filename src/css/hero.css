@@ -6,5 +6,41 @@
     url(../img/hero-img-pc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
-}
+    background-position: 50% 50%;}
+.hero-div{display: flex;
+        flex-direction: column;}
+.container{/*width: 1158px;*/
+           width: 100%;
+           /*padding-right: 15px;
+           padding-left: 15px;*/
+           margin-left: auto;
+           margin-right: auto;}
+.hero-h{/*width: 496px;*/
+   /*font-weight: 700;
+   font-size: 26px;*/
+   /*font-size: 56px;*/
+   /*line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--white-color);
+   margin: 0 auto;*/}
+.hero-button{/*background-color: var(--brand-color);
+   font-weight: 500;
+   line-height: 1.5;
+   font-size: 16px;
+   letter-spacing: 0.04em;
+   font-family: "Roboto", sans-serif;
+   cursor: pointer;
+   color: var(--white-color);
+   max-width: 150px;
+   margin: 0 auto;*/
+   /*margin-top: 50px;*/
+   /*width: 169px;
+   height: 56px;
+   border: none;
+   margin-top: 72px;
+   border-radius: 4px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/}
+.sec-button:hover, .sec-button:focus{background-color: var(--violet-color); color: var(--white-color);}
+.hero-button{}
+.hero-button{}
