@@ -1,0 +1,114 @@
+.item-advantages .text-advantages {
+    width: 308px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 38px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .item-advantages .text-advantages {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .item-advantages .text-advantages {
+      margin-bottom: 0;
+    }
+  }
+  
+  .item-advantages .text-advantages.text-advantages-none {
+    margin-bottom: 0;
+  }
+  
+  .title-section-advantages {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 18px;
+  }
+  
+  .section-advantages {
+    background-color: #1e1823;
+  }
+  
+  .container-advantages {
+    max-width: 375px;
+    display: block;
+    margin: auto;
+    padding: 20px 20px 36px 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container-advantages {
+      max-width: 768px;
+      display: block;
+      padding: 50px 32px 85px 32px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container-advantages {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px;
+    }
+  }
+  
+  .item-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .item-advantages {
+      flex-direction: row;
+      column-gap: 88px;
+    }
+  }
+  
+  .box-icon-directions {
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 365px;
+    margin-bottom: 22px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .border-advantages {
+      position: absolute;
+      top: 120px;
+      right: -80px;
+      width: 124px;
+      height: 0px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      transform: rotate(90deg);
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  
+    .list-advantages {
+      position: relative;
+    }
+  }
+  
