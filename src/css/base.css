@@ -49,3 +49,19 @@ p {
     max-width: 1200px;
   }
 }
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+}
+
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  border-radius: 10px;
+  background: var(--brand-color);
+}
+
+.swiper-pagination {
+  position: relative;
+}
