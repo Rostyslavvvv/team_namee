@@ -1,0 +1,131 @@
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.section-title-accent-color {
+  color: #fd9222;
+}
+
+.our-products-list {
+  display: flex;
+}
+
+.card-title {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.card-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.btn-value {
+  padding: 8px 20px;
+  margin-top: 18px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #111111;
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+.our-products-item {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+/* ============= Mobile styles ========== */
+
+@media screen and (min-width: 375px) {
+  .our-products {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .container {
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 32px;
+  }
+
+  .our-products-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 53px;
+    padding-right: 52px;
+    background: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+  }
+}
+
+/* ============ Tablet styles =========== */
+
+@media screen and (min-width: 768px) {
+  .our-products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .section-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .our-products-list {
+    gap: 18px;
+  }
+
+  .our-products-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* =========== Desctop styles ============= */
+
+@media screen and (min-width: 1200px) {
+  .our-products {
+    padding-top: 83px;
+    padding-bottom: 128px;
+  }
+
+  .container {
+    width: 1136px;
+  }
+}
