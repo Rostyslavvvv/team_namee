@@ -32,7 +32,7 @@
               gap: 14px;
               margin: 0; 
               padding: 0;}
-.hero-buttons-li{}
+.hero-buttons-li{padding-left: 180px;}
 .hero-button-one{display: flex;
    justify-content: center;
    align-items: center;
@@ -57,7 +57,7 @@
                  border: 1px solid #FFFFFF;
                  border-radius: 100px;
                  background: none;
-                 width: 159px;
+                 width: 183px;
                  height: 45px;
                  font-weight: 600;
                  font-size: 14px;
