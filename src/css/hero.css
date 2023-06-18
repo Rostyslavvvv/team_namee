@@ -92,3 +92,9 @@
 .hero-button-scroll:hover .hero-scroll{fill: #FFFFFF;}
 .hero-button-scroll:focus .hero-scroll{fill: #FFFFFF;}
 .hero-scroll-text{}
+#footer {
+   height: 50%;
+ }
+#how-its-made{
+   height: 50%;
+}
