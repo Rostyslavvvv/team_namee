@@ -18,7 +18,7 @@ img {
   width: 28px;
   height: 13px;
   opacity: 1;
-  /* border-radius: 0; */
+  border-radius: 10px;
   background: #fd9222;
 }
 
