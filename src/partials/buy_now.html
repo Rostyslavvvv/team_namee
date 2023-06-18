@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="../css/buy_now.css"/>
 
  <div
-      class="backdrop is-hidden"
+      class="backdrop "
       data-modal
       style="
         position: fixed;
@@ -24,11 +24,11 @@
           </svg>
         </button>
         <p class="modal-header">BUY <span class="now"> NOW </span></p>
-
+<div class="modal-content-wrapper">
         <ul class="chocolate-cards-list list">
             <li class="chocolate-card">
               <img
-                src="./images/blackchocmodaldesktop.jpg"
+                src="./img/modalimages/blackchocmodaldesktop.jpg"
                 alt="Black chocolate"
                 width="120"
                 height="107"
@@ -39,7 +39,7 @@
             </li>
             <li class="chocolate-card">
                 <img
-                  src="./images/blackwhitechocmodaldesktop.jpg"
+                  src="./img/modalimages/blackwhitechocmodaldesktop.jpg"
                   alt="Black and white chocolate"
                   width="120"
                   height="107"
@@ -50,7 +50,7 @@
               </li>
               <li class="chocolate-card">
                 <img
-                  src="./images/milkchocmodaldesktop.jpg"
+                  src="./img/modalimages/milkchocmodaldesktop.jpg"
                   alt="Milk chocolate"
                   width="120"
                   height="107"
@@ -64,8 +64,8 @@
         <form class="modal-contact-form">
           <div class="personal-information-wrapper">
             <div class="form-wrapper">
-              <label for="user-name" class="form-description">Personal information</label>
-              <div class="input--wrapper">
+              <label for="user-name"  class="form-description">Personal information</label>
+              <div class="input-wrapper">
                 <input 
                    id="user-name"
                    type="text" 
@@ -81,18 +81,17 @@
             </div>
 
              <div class="form-wrapper">
-              <!-- <label for="user-name" class="form-description">Name</label> -->
-              <div class="input-icon-wrapper">
+              <!-- <label for="user-name" class="form-description" >Surname</label> -->
+              <div class="input-wrapper">
                 <input 
                    id="user-surname"
                    type="text" 
-                   class="form-input" 
+                   class="surname-form-input" 
                    name="user-name"
                    required
                    pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
                    placeholder="Surname"
                    >
-                    
                 </div>
                   
             </div>
@@ -104,7 +103,7 @@
           
           <div class="form-wrapper">
             <label for="user-phone" class="form-description">Email</label>
-            <div class="input-icon-wrapper">
+            <div class="input-wrapper">
             <input 
             id="user-phone"
             type="tel" 
@@ -122,7 +121,7 @@
           
             <div class="form-wrapper">
               <label for="user-email" class="form-description">Phone number</label>
-              <div class="input-icon-wrapper">
+              <div class="input-wrapper">
               <input 
                   id="user-email"
                   type="text" 
@@ -138,7 +137,7 @@
 
             <div class="form-wrapper">
                 <label for="user-email" class="form-description">Card number</label>
-                <div class="input-icon-wrapper">
+                <div class="input-wrapper">
                 <input 
                     id="user-card"
                     type="text" 
@@ -165,11 +164,12 @@
               </div>
             
                  
-              </div>
+              
           <button type="submit" class="form-submit-button">Submit</button>
         </form>
+    </div>
       </div> 
     </div> 
   
 
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
