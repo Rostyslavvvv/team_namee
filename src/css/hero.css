@@ -1,8 +1,8 @@
 .hero{
-    width: 1200px;
+    /*width: 1200px;*/
     height: 600px;
     background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
-    url(../img/hero-img-pc.jpg);
+    url(../img/hero/hero-img-pc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 32px; 
@@ -47,7 +47,7 @@
    font-family: 'Montserrat';
    font-style: normal;
    color: #FFFFFF;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .hero-button-one:hover, .hero-button-one:focus{background-color: #FFFFFF; color: #FD9222;}
 .hero-button-two{display: flex;
                  justify-content: center;
@@ -81,3 +81,11 @@
 .hero-scroll{fill: #FD9222;}
 .hero-button-three:hover .hero-scroll{fill: #FFFFFF;}
 .hero-button-three:focus .hero-scroll{fill: #FFFFFF;}
+/*.hero-scroll-text{font-weight: 500;
+   font-size: 14px;
+   white-space: nowrap;
+   line-height: 1.28;
+   font-family: 'Montserrat';
+   font-style: normal;
+   margin-right: 150px;
+   color: #FFFFFF;}*/
