@@ -86,7 +86,6 @@
 
   .footer-section {
     padding: 50px 0;
-    background-color: #1E1823;
   }
 
   .footer-information-section {
@@ -96,7 +95,7 @@
   .footer-infocontact-section {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 54px;
   }
 
   .footer-title {
@@ -141,14 +140,14 @@
   }
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1200px){
 
   .container {
     max-width: 1136px;
   }
 
-  .footer-section {
-    padding: 32px 0;
+  .footer-infocontact-section {
+    padding-bottom: 62px;
   }
 
   .footer-contact-section {
