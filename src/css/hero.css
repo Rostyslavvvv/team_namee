@@ -1,12 +1,13 @@
 .hero{
-    /*width: 1200px;*/
+    width: 1200px;
     height: 600px;
     background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
     url(../img/hero/hero-img-pc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 32px; 
-    margin-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
     border-radius: 30px;
     margin-bottom: 72px;}
 .hero-div{}
@@ -76,15 +77,18 @@
                    justify-content: center;
                    align-items: center;
                    background: #FFFFFF;
-                   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-.hero-button-scroll:hover, .hero-button-scroll:focus{background-color: #FD9222;}
+                   font-weight: 500;
+                   font-size: 14px;
+                   white-space: nowrap;
+                   line-height: 1.28;
+                   font-family: 'Montserrat';
+                   font-style: normal;
+                   color: #FFFFFF;
+
+                   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                   color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.hero-button-scroll:hover, .hero-button-scroll:focus{background-color: #FD9222; color: #FD9222;}
 .hero-scroll{fill: #FD9222;}
 .hero-button-scroll:hover .hero-scroll{fill: #FFFFFF;}
 .hero-button-scroll:focus .hero-scroll{fill: #FFFFFF;}
-.hero-scroll-text{font-weight: 500;
-   font-size: 14px;
-   white-space: nowrap;
-   line-height: 1.28;
-   font-family: 'Montserrat';
-   font-style: normal;
-   color: #FFFFFF;}
+.hero-scroll-text{}
