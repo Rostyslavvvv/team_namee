@@ -60,15 +60,6 @@
 @media screen and (min-width: 375px) {
   .our-products {
     padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
-  .container {
-    width: 335px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .section-title {
@@ -78,9 +69,7 @@
   }
 
   .our-products-item {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 53px;
+    padding-left: 52px;
     padding-right: 52px;
     background: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
@@ -91,16 +80,6 @@
 /* ============ Tablet styles =========== */
 
 @media screen and (min-width: 768px) {
-  .our-products {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .container {
-    width: 704px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .section-title {
     font-size: 24px;
     line-height: 1.17;
@@ -114,18 +93,5 @@
   .our-products-item {
     padding-left: 20px;
     padding-right: 20px;
-  }
-}
-
-/* =========== Desctop styles ============= */
-
-@media screen and (min-width: 1200px) {
-  .our-products {
-    padding-top: 83px;
-    padding-bottom: 128px;
-  }
-
-  .container {
-    width: 1136px;
   }
 }
