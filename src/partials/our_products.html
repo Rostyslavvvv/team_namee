@@ -1,10 +1,13 @@
 <section class="our-products">
-  <div class="container">
-    <h2 class="section-title">
-      OUR <span class="section-title-accent-color">PRODUCTS</span>
-    </h2>
-    <ul class="our-products-list list">
-      <li class="our-products-item">
+  <h2 class="section-title">
+    OUR <span class="section-title-accent-color">PRODUCTS</span>
+  </h2>
+  <!-- Slider main container -->
+  <div class="container swiper">
+    <!-- Additional required wrapper -->
+    <ul class="our-products-list list swiper-wrapper">
+      <!-- Slides -->
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/orange@2x.jpg"
           src="./img/our-products/orange.jpg"
@@ -16,7 +19,8 @@
         <p class="card-desc">Dark chocolate</p>
         <span class="btn-value">45 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/apple-cranberry@2x.jpg"
           src="./img/our-products/apple-cranberry.jpg"
@@ -28,7 +32,8 @@
         <p class="card-desc">Milk chocolate</p>
         <span class="btn-value">50 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/pineapple@2x.jpg"
           src="./img/our-products/pineapple.jpg"
@@ -40,7 +45,8 @@
         <p class="card-desc">Dark chocolate</p>
         <span class="btn-value">54 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/lime-sea-salt@2x.jpg"
           src="./img/our-products/lime-sea-salt.jpg"
@@ -52,7 +58,8 @@
         <p class="card-desc">Dark chocolate</p>
         <span class="btn-value">66 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/classic-milk@2x.jpg"
           src="./img/our-products/classic-milk.jpg"
@@ -64,7 +71,8 @@
         <p class="card-desc">Milk chocolate</p>
         <span class="btn-value">45 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/honey@2x.jpg"
           src="./img/our-products/honey.jpg"
@@ -76,7 +84,8 @@
         <p class="card-desc">Milk chocolate</p>
         <span class="btn-value">50 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/roasted@2x.jpg"
           src="./img/our-products/roasted.jpg"
@@ -88,7 +97,8 @@
         <p class="card-desc">Dark chocolate</p>
         <span class="btn-value">66 UAH</span>
       </li>
-      <li class="our-products-item">
+
+      <li class="our-products-item swiper-slide">
         <img
           srcset="./img/our-products/classic-white@2x.jpg"
           src="./img/our-products/classic-white.jpg"
@@ -101,5 +111,11 @@
         <span class="btn-value">54 UAH</span>
       </li>
     </ul>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </div>
 </section>
