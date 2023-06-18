@@ -1,3 +1,10 @@
+
+/*=======================================STYLES FOR DESKTOP==============================================================*/
+
+@media screen and (max-device-pixel-ratio: 1) and (min-width: 1200px),
+  screen and (max-resolution: 96dpi) and (min-width: 1200px),
+  screen and (max-resolution: 1dppx) and (min-width: 1200px) {
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -22,21 +29,41 @@
   padding-right: 48px;
   padding-top: 48px;
   padding-bottom: 48px;
+  z-index: 1;
 }
 .modal-close-btn {
   position: absolute;
   top: 24px;
   right: 24px;
-  background-color: #E7E9FC;
+  /* background-color: transparent; */
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
 }
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #FCF1E0;
+  border: none;
+  fill: #000000;
+}
+
+.icon-close-modal {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.modal-close-btn:hover .icon-close-modal,
+.modal-close-btn:focus .icon-close-modal {
+  fill: black;
+}
+
 .modal-header {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -47,6 +74,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #FD9222;
+  margin-bottom: 32px;
 }
 .now {
   font-family: 'Montserrat', sans-serif;
@@ -59,12 +87,7 @@
   text-transform: uppercase;
   color: black;
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  background-color: #FCF1E0;
-  border: none;
-  fill: #FFFFFF;
-}
+
 .icon-close-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -133,11 +156,11 @@
   border-radius: 4px;
   padding-left: 15px;
   outline: transparent;
-  border-color: #4D5AE5;
+  border-color: #FD9222;
   border: 1px solid rgba(17, 17, 17, 0.1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
-  margin-top: 25px;
+  margin-top: 32px;
 }
 .form-input {
   width: 100%;
@@ -145,12 +168,49 @@
   border-radius: 4px;
   padding-left: 15px;
   outline: transparent;
-  border-color: #4D5AE5;
+  border-color: #FD9222;
   border: 1px solid rgba(17, 17, 17, 0.1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   margin-top: 8px;
 }
+
+.phone-form-input {
+  width: 100%;
+  height: 66px;
+  border-radius: 4px;
+  padding-left: 140px;
+  outline: transparent;
+  border-color: #FD9222;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  margin-top: 8px;
+}
+
+.card-form-input {
+  width: 100%;
+  height: 66px;
+  border-radius: 4px;
+  padding-left: 15px;
+  outline: transparent;
+  border-color: #FD9222;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  margin-top: 8px;
+  justify-content: end;
+}
+
+.card-input-icon {
+  position:absolute;
+  top: 50%;
+  left: 16px;
+  margin-left: 87%;
+  margin-top: -7px;
+  display: block;
+}
+
 .form-description {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -167,7 +227,7 @@
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 80px;
   resize: none;
   line-height: 1.4;
   font-size: 12px;
@@ -207,12 +267,28 @@
 }
 .form-comment:focus {
   outline: none;
-  border-color: #4D5AE5;
+  border-color: #FD9222;
 }
 .form-input:focus {
   outline: none;
-  border-color: #4D5AE5;
+  border-color: #FD9222;
 }
+
+.surname-form-input:focus {
+  outline: none;
+  border-color: #FD9222;
+}
+
+.phone-form-input:focus {
+  outline: none;
+  border-color: #FD9222;
+}
+
+.card-form-input:focus {
+  outline: none;
+  border-color: #FD9222;
+}
+
 .form-submit-button {
   margin-right: auto;
   margin-left: auto;
@@ -237,3 +313,5 @@
   background-color: #FCF1E0;
   transition-duration: 250ms;
 }
+
+  }

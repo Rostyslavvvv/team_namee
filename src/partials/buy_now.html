@@ -1,6 +1,7 @@
-
+<!DOCTYPE html>
+<title>Buy now</title>
  <div
-      class="backdrop is-hidden"
+      class="backdrop "
       data-modal
       style="
         position: fixed;
@@ -16,8 +17,8 @@
      > 
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="icon-close-modal" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
+          <svg class="icon-close-modal" width="14" height="14">
+            <use href="./img/sprite.svg#icon-x-close"></use>
           </svg>
         </button>
         <p class="modal-header">BUY <span class="now"> NOW </span></p>
@@ -122,12 +123,12 @@
               <input 
                   id="user-email"
                   type="text" 
-                  class="form-input" 
+                  class="phone-form-input" 
                   name="user-phone" 
-                  placeholder="+380 | Phone number"
+                  placeholder="|  Phone number"
 
                 />
-                <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+                <svg class="input-icon" width="125" height="32"><use class="form-input-icon" href="./img/sprite.svg#icon-LeftInput"></use></svg>
               
             </div>
             </div>
@@ -138,12 +139,12 @@
                 <input 
                     id="user-card"
                     type="text" 
-                    class="form-input" 
+                    class="card-form-input" 
                     name="user-card" 
                     placeholder="Enter card"
   
                   />
-                  <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+                  <svg class="card-input-icon" width="32" height="24"><use class="form-input-icon" href="./img/sprite.svg#icon-Mastercard"></use></svg>
                 
               </div>
               </div>
@@ -151,12 +152,13 @@
             
               <div class="form-comment-wrapper">
                 <label for="user-comment" class="form-description">Comment</label>
-                <textarea 
+                <input 
                     id="user-comment"
                     class="form-comment" 
                     name="user-comment" 
-                    placeholder="Enter text">
-                  </textarea>
+                    placeholder="Enter text"
+                    >
+                 
                     
               </div>
             
@@ -169,5 +171,5 @@
     </div> 
   
 
-    <!-- <script src="./js/modal.js"></script> -->
-    </div> 
+   
+  <!-- </div>  -->
