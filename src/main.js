@@ -1,2 +1,1 @@
-import './js/swiper';
-import './mobile-menu';
+import './js/swiper-our-products';
