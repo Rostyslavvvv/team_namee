@@ -1,4 +1,7 @@
 /*-----Mobile------*/
+.how-made-container {
+  padding-top: 72px;
+}
 .how-made-title {
   text-align: center;
   font-size: 20px;
@@ -47,7 +50,7 @@
 /*---------Tablet-----------*/
 @media screen and (min-width: 768px) {
   .how-made-container {
-    padding: 0 46px;
+    padding: 100px 46px 0 46px;
   }
   .how-made-title {
     font-size: 24px;
@@ -78,8 +81,8 @@
     margin-top: 50px;
   }
   .how-made-container {
-    padding: 0;
-  }
+  padding-top: 128px;
+}
   .how-made-img {
     margin: 0;
   }
