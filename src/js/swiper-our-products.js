@@ -2,20 +2,25 @@
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-
-  // If we need pagination
+  slidesPerView: 1,
+   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+    },
+    
+  
+  breakpoints: {
+    
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 18,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 18,
+    },
   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
 });
