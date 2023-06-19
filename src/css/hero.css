@@ -1,5 +1,5 @@
 .hero{
-    width: 1200px;
+    width: 1136px;
     height: 600px;
     background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), 
     url(../img/hero/hero-img-pc.jpg);
@@ -32,7 +32,7 @@
               gap: 14px;
               margin: 0; 
               padding: 0;}
-.hero-buttons-li{padding-left: 180px;}
+.hero-buttons-li{margin-left: auto;}
 .hero-button-one{display: flex;
    justify-content: center;
    align-items: center;
