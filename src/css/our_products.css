@@ -1,12 +1,5 @@
-img {
-  display: inline-block;
-  max-width: none;
-  height: auto;
-}
-
 .swiper-pagination {
   position: static;
-  margin-top: 30px;
   display: flex;
   column-gap: 13px;
   justify-content: center;
@@ -17,9 +10,6 @@ img {
   height: 13px;
 
   /* background: rgba(17, 17, 17, 0.1); */
-}
-.swiper-slide {
-  flex-shrink: 1;
 }
 
 .swiper-pagination-bullet-active {
@@ -40,10 +30,6 @@ img {
 
 .section-title-accent-color {
   color: #fd9222;
-}
-
-.our-products-list {
-  display: flex;
 }
 
 .card-title {
@@ -87,11 +73,21 @@ img {
   border-radius: 15px;
 }
 
+.our-products-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ============= Mobile styles ========== */
 
 @media screen and (min-width: 375px) {
   .our-products {
     padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .our-products-list {
+    margin-bottom: 20px;
   }
 
   .section-title {
@@ -107,14 +103,15 @@ img {
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
   }
-  .swiper-pagination {
-    margin-top: 20px;
-  }
 }
 
 /* ============ Tablet styles =========== */
 
 @media screen and (min-width: 768px) {
+  .our-products {
+    padding-bottom: 100px;
+  }
+
   .section-title {
     font-size: 24px;
     line-height: 1.17;
@@ -122,23 +119,19 @@ img {
   }
 
   .our-products-list {
-    gap: 18px;
+    margin-bottom: 32px;
   }
 
   .our-products-item {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  .swiper-pagination {
-    margin-top: 32px;
-  }
 }
 
 /* ========== Desktop styles ============ */
 
 @media screen and (min-width: 1200px) {
-  .swiper-pagination {
-    margin-top: 77px;
+  .our-products {
+    padding-bottom: 128px;
   }
 }
