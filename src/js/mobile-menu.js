@@ -14,7 +14,7 @@
         : 'enableBodyScroll';
       bodyScrollLock[scrollLockMethod](document.body);
     };
-  
+
     openMenuBtn.addEventListener('click', toggleMenu);
     closeMenuBtn.addEventListener('click', toggleMenu);
   
@@ -24,5 +24,6 @@
       mobileMenu.classList.remove('is-open');
       openMenuBtn.setAttribute('aria-expanded', false);
       bodyScrollLock.enableBodyScroll(document.body);
+      
     });
   })();
