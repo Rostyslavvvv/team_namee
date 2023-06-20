@@ -45,3 +45,10 @@ const closeButtonB = document.querySelector('.modal-reviews-close-btn');
 closeButtonB.addEventListener('click', () => {
   closeModal(modalB);
 });
+
+// Отримати кнопку "Send" з DOM
+const sendButton = document.querySelector('.modal-reviews-button-submit');
+// Додати обробник події для кнопки "Send"
+sendButton.addEventListener('click', () => {
+  closeModal(modalB);
+});
