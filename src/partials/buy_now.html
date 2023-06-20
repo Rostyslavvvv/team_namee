@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<title>Buy now</title>
  <div
       class="backdrop is-hidden"
       data-modal
@@ -16,16 +17,16 @@
      > 
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="icon-close-modal" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
+          <svg class="icon-close-modal" width="20" height="20">
+            <use href="./img/sprite.svg#icon-x-close"></use>
           </svg>
         </button>
         <p class="modal-header">BUY <span class="now"> NOW </span></p>
-
+<div class="modal-content-wrapper">
         <ul class="chocolate-cards-list list">
             <li class="chocolate-card">
               <img
-                src="./images/blackchocmodaldesktop.jpg"
+                src="./img/modalimages/blackchocmodaldesktop.jpg"
                 alt="Black chocolate"
                 width="120"
                 height="107"
@@ -36,7 +37,7 @@
             </li>
             <li class="chocolate-card">
                 <img
-                  src="./images/blackwhitechocmodaldesktop.jpg"
+                  src="./img/modalimages/blackwhitechocmodaldesktop.jpg"
                   alt="Black and white chocolate"
                   width="120"
                   height="107"
@@ -47,7 +48,7 @@
               </li>
               <li class="chocolate-card">
                 <img
-                  src="./images/milkchocmodaldesktop.jpg"
+                  src="./img/modalimages/milkchocmodaldesktop.jpg"
                   alt="Milk chocolate"
                   width="120"
                   height="107"
@@ -61,8 +62,8 @@
         <form class="modal-contact-form">
           <div class="personal-information-wrapper">
             <div class="form-wrapper">
-              <label for="user-name" class="form-description">Personal information</label>
-              <div class="input--wrapper">
+              <label for="user-name"  class="form-description">Personal information</label>
+              <div class="input-wrapper">
                 <input 
                    id="user-name"
                    type="text" 
@@ -78,18 +79,17 @@
             </div>
 
              <div class="form-wrapper">
-              <!-- <label for="user-name" class="form-description">Name</label> -->
-              <div class="input-icon-wrapper">
+              <!-- <label for="user-name" class="form-description" >Surname</label> -->
+              <div class="input-wrapper">
                 <input 
                    id="user-surname"
                    type="text" 
-                   class="form-input" 
+                   class="surname-form-input" 
                    name="user-name"
                    required
                    pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
                    placeholder="Surname"
                    >
-                    
                 </div>
                   
             </div>
@@ -101,7 +101,7 @@
           
           <div class="form-wrapper">
             <label for="user-phone" class="form-description">Email</label>
-            <div class="input-icon-wrapper">
+            <div class="input-wrapper">
             <input 
             id="user-phone"
             type="tel" 
@@ -119,32 +119,32 @@
           
             <div class="form-wrapper">
               <label for="user-email" class="form-description">Phone number</label>
-              <div class="input-icon-wrapper">
+              <div class="input-wrapper">
               <input 
                   id="user-email"
                   type="text" 
-                  class="form-input" 
+                  class="phone-form-input" 
                   name="user-phone" 
-                  placeholder="+380 | Phone number"
+                  placeholder="|  Phone number"
 
                 />
-                <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+                <svg class="input-icon" width="125" height="32"><use class="form-input-icon" href="./img/sprite.svg#icon-LeftInput"></use></svg>
               
             </div>
             </div>
 
             <div class="form-wrapper">
                 <label for="user-email" class="form-description">Card number</label>
-                <div class="input-icon-wrapper">
+                <div class="input-wrapper">
                 <input 
                     id="user-card"
                     type="text" 
-                    class="form-input" 
+                    class="card-form-input" 
                     name="user-card" 
                     placeholder="Enter card"
   
                   />
-                  <svg class="input-icon" width="32" height="24"><use class="form-input-icon" href="./images/icons.svg#icon-Vector-2"></use></svg>
+                  <svg class="card-input-icon" width="32" height="24"><use class="form-input-icon" href="./img/sprite.svg#icon-Mastercard"></use></svg>
                 
               </div>
               </div>
@@ -152,18 +152,24 @@
             
               <div class="form-comment-wrapper">
                 <label for="user-comment" class="form-description">Comment</label>
-                <textarea 
+                <input 
                     id="user-comment"
                     class="form-comment" 
                     name="user-comment" 
-                    placeholder="Enter text">
-                  </textarea>
+                    placeholder="Enter text"
+                    >
+                 
                     
               </div>
             
                  
-              </div>
+              
           <button type="submit" class="form-submit-button">Submit</button>
         </form>
+    </div>
       </div> 
     </div> 
+  
+
+   
+  </div> 
