@@ -1,4 +1,4 @@
-import '/js/swiper-our-products';
-import '/js/swiper';
-import '/js/mobile-menu';
-import '/js/modal';
+import '/src/js/swiper-our-products';
+import '/src/js/swiper';
+import '/src/js/mobile-menu;
+import '/src/js/modal';
