@@ -123,13 +123,33 @@
     }
 }
 
+.order-position-milk {
+    order: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .order-position-milk {
+        order: 2;
+    }
+}
+
+.order-position-choco {
+    order: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .order-position-choco {
+        order: 1;
+    }
+}
+
 .order-position {
     order: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .order-position {
-        order: 1;
+        order: 3;
     }
 }
 
