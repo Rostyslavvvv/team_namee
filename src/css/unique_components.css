@@ -50,7 +50,13 @@
 @media screen and (min-width: 768px) {
     .unique_components-header-block {
         width: 486px;
-        margin-bottom: 50px;
+        margin: 100px auto 50px auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .unique_components-header-block {
+        margin-top: 128px;
     }
 }
 
@@ -265,19 +271,26 @@
     /* height: 158px; */
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    /* text-overflow: ellipsis; */
 }
 
 .ingridient-text-box-mini {
     height: 146px;
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    /* text-overflow: ellipsis; */
 }
 
 @media screen and (min-width: 1200px) {
     .ingridient-text-box-mini {
         height: 128px;
+        -webkit-line-clamp: 7;
     }
 }
 
