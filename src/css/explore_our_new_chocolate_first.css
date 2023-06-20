@@ -89,19 +89,19 @@
   gap: 24px;
   }
 
-  .form-submit-btn {
+  .form-submit-btn-subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 17px 40px;
-    background-color: #FD9222;;
+    background-color: #FD9222;
     border-radius: 100px;
     border: none;
     height: 40px;
     min-width: 165px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
