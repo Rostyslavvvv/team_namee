@@ -65,8 +65,8 @@
     margin: 0 auto;
     padding-bottom: 24px;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -81,6 +81,8 @@
     .unique_components-header {
         max-width: 411px;
         padding-bottom: 28px;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 
