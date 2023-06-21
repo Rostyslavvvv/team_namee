@@ -61,18 +61,20 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 72px;
-
+}
   @media screen and (min-width: 768px) {
+    .container{
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 100px;
   }
   @media screen and (min-width: 1200px) {
+    .container{
     max-width: 1200px;
     padding-top: 128px;
   }
-}
+
 
 .swiper-pagination-bullet {
   width: 13px;
