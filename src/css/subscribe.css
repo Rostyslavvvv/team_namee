@@ -134,8 +134,8 @@
   padding: 12px 28px;
   margin-left: auto;
   margin-right: auto;
-  transition: background-color rgba(252, 241, 224, 1),
-    color rgba(253, 146, 34, 1);
+  transition: background-color rgba(252, 241, 224),
+    color rgba(253, 146, 34);
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
