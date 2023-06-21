@@ -57,6 +57,7 @@
   top: 0;
   left: 0;
   opacity: 0;
+  border: 0;  
 }
 .how-made-icon {
   position: absolute;
