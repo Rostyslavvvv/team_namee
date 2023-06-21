@@ -1,4 +1,57 @@
 
+.subscribe-img{
+  display: block;
+  width: 311px;
+  height: 169px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.subscribe-img {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url('/img/subscribe/subscribe-chocolate-mobile.jpg');
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+    .subscribe-img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-chocolate-mobile@2x.jpg');
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe-img {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-chocolate-tablet-desktop.jpg');
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+    .subscribe-img {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-chocolate-tablet-desktop@2x.jpg');
+  }
+}
+
 .modal-close-btn-subscribe {
   z-index: 101;
   position: absolute;
@@ -16,9 +69,6 @@
   z-index: 100;
 }
 .text-subscribe-button {
-  display: none;
-}
-.subscribe-modal-img-desctop {
   display: none;
 }
 .backdrop-subscribe {
@@ -41,20 +91,11 @@
   min-width: 311px;
   min-height: 350px;
   padding: 201px 24px 32px 24px;
-  background: #FAFAFA;
+
+  background: #fafafa;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-}
-.subscribe-modal-img {
-  position: fixed;
-  justify-content: space-between;
-  width: 311px;
-  height: 169px;
-  left: 0px;
-  top: 0px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 .is-hidden-subscribe {
   opacity: 0;
@@ -84,7 +125,7 @@
   margin-bottom: 24px;
 }
 .subscribe-form-title-part {
-  color: #FD9222;
+  color: #fd9222;
 }
 .subscribe-form-input {
   border: 1.5px solid rgba(17, 17, 17, 0.05);
@@ -96,7 +137,9 @@
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+
+  color: #ffffff;
+
   padding-left: 16px;
   border-radius: 25px;
 }
@@ -111,7 +154,9 @@
   align-items: center;
   text-align: center;
   padding: 17px 40px;
-  background-color: #FD9222;
+
+  background-color: #fd9222;
+
   border-radius: 100px;
   border: none;
   height: 45px;
@@ -127,10 +172,12 @@
   bottom: 44px;
   right: 24px;
 }
-.form-submit-btn-subscribe:hover,
-.form-submit-btn-subscribe:focus {
-  background-color: #FCF1E0;
-  color: #FD9222;
+
+.form-submit-btn:hover,
+.form-submit-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+
 }
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -143,10 +190,7 @@
   .text-submit-button {
     display: none;
   }
-  .subscribe-modal-img {
-    width: 538px;
-    height: 196px;
-  }
+
   .modal-subscribe {
     width: 538px;
     height: 412px;
@@ -170,131 +214,14 @@
     display: flex;
     gap: 8px;
   }
-  .subscribe-modal-img-mobil {
-    display: none;
-  }
-  .subscribe-modal-img-desctop {
-    display: block;
-  }
+
   .subscribe-form-title {
     font-size: 24px;
     line-height: 28px;
   }
-}
-=======
-.backdrop-subscribe {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
-  .modal-subscribe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 538px;
-    min-height: 412px;
-    padding: 72px 24px 24px 24px;
-    background: #FAFAFA;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-  }
 
-  .subscribe-modal-img {
-    position: fixed;
-    justify-content: space-between;
+  .subscribe-img{
     width: 538px;
     height: 196px;
-    left: 0px;
-    top: 0px;
-  }  
-  
-  .is-hidden-subscribe {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
   }
-  
-  
-  .modal-container-subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 28px;
-    
-    position: absolute;
-    width: 458px;
-    height: 136px;
-    left: 40px;
-    top: 236px;
-  }
-
-  .subscribe-form-title {
-    width: 298px;
-    height: 56px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #111111;
-  }
-  .subscribe-form-title-part {
-    color: #FD9222;
-  }
-
-  .subscribe-form-input {
-    border: 1px solid #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: transparent;
-  width: 264px;
-  height: 40px;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  padding-left: 16px;
-  }
-
-  .modal-subscribe-form {
-    display: flex;
-  align-items: center;
-  gap: 24px;
-  }
-
-  .form-submit-btn-subscribe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 17px 40px;
-    background-color: #FD9222;
-    border-radius: 100px;
-    border: none;
-    height: 40px;
-    min-width: 165px;
-    color: #fff;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    isolation: isolate;    
-  }
-
-  .form-submit-btn:hover,
-  .form-submit-btn:focus {
-    background-color: #FCF1E0;
-    color: #FD9222;
-  }
+}
