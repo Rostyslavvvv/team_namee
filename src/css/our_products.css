@@ -45,6 +45,7 @@
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .our-products-item img {
