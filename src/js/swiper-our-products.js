@@ -2,11 +2,12 @@
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 1,
+    slidesPerView: 1,
+  spaceBetween: 18,
    // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    type: 'bullets',
+    // type: 'bullets',
     clickable: true,
     },
     
@@ -15,11 +16,11 @@
     
     768: {
       slidesPerView: 2,
-      spaceBetween: 18,
+      
     },
     1200: {
       slidesPerView: 4,
-      spaceBetween: 18,
+      
     },
   },
 
