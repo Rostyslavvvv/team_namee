@@ -35,7 +35,6 @@
 .logo{
     display: flex;
     align-items: center;
-    margin-right: 188px;
  
 
     font-family: "Montserrat";
@@ -44,15 +43,6 @@
     line-height: 1.2;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    
-
-
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
 }
 .icon-chocolate {
   margin-left: 4px;
@@ -273,6 +263,11 @@
 @media screen and (min-width: 1200px) {
   .main-nav-list {
     display: flex;
+    gap: 24px;
+    }
+    .main-nav-list .main-nav-link{
+      line-height: 16px;
+      font-size: 14px;
     }
     .main-nav-item:hover,
     .main-nav-item:focus{
