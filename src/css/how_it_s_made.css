@@ -10,7 +10,7 @@
 }
 
 .how-made-title-second {
-  color: #FD9222;
+  color: #fd9222;
 }
 
 .how-made-title-list {
@@ -32,7 +32,7 @@
 .how-made-list-background {
   padding: 20px 14px;
   border-radius: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .how-made-list {
@@ -57,6 +57,7 @@
   top: 0;
   left: 0;
   opacity: 0;
+  border: 0;  
 }
 .how-made-icon {
   position: absolute;
