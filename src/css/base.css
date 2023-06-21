@@ -1,6 +1,41 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat-Regular'),
+    url('../fonts/montserrat-regular.ttf') format('ttf'),
+    url('../fonts/montserrat-regular.eot') format('eot'),
+    url('../fonts/montserrat-regular.woff') format('woff'),
+    url('../fonts/montserrat-regular.woff2') format('woff2'),
+    url('../fonts/montserrat-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat-Medium'),
+    url('../fonts/montserrat-medium.ttf') format('ttf'),
+    url('../fonts/montserrat-medium.eot') format('eot'),
+    url('../fonts/montserrat-medium.woff') format('woff'),
+    url('../fonts/montserrat-medium.woff2') format('woff2'),
+    url('../fonts/montserrat-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat-Semibold'),
+    url('../fonts/montserrat-semibold.ttf') format('ttf'),
+    url('../fonts/montserrat-semibold.eot') format('eot'),
+    url('../fonts/montserrat-semibold.woff') format('woff'),
+    url('../fonts/montserrat-semibold.woff2') format('woff2'),
+    url('../fonts/montserrat-semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   font-family: 'Montserrat';
-  font-style: normal;
   background-color: #fafafa;
   color: var(--text-color);
 }
@@ -42,15 +77,20 @@ p {
 .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
+  opacity: 0.1;
 }
 
 .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
   border-radius: 10px;
+  opacity: 1;
   background: var(--brand-color);
 }
 
 .swiper-pagination {
-  position: relative;
+  position: static;
+  display: flex;
+  column-gap: 13px;
+  justify-content: center;
 }

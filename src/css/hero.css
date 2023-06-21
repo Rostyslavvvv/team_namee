@@ -193,7 +193,86 @@
           color: #ffffff;
           margin-bottom: 32px;
         }
-
+        .hero-button-one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 12px 28px;
+          width: 120px;
+          height: 41px;
+          background-color: #fd9222;
+          border-radius: 100px;
+          border: none;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: background-color, color;
+        }
+        .hero-button-two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 12px 28px;
+          border: 1px solid #ffffff;
+          border-radius: 100px;
+          background: none;
+          width: 159px;
+          height: 41px;
+          font-weight: 600;
+          font-size: 14px;
+          white-space: nowrap;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: border-color, color;
+        }
+        .hero-button-text {
+          font-weight: 500;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          line-height: 1.16;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: color;
+        }
+        .hero-scroll-button {
+          width: 28px;
+          height: 28px;
+          border: none;
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #ffffff;
+          transition: background-color;
+        }
+        .scroll-text {
+          margin-right: 12px;
+        }
+        .hero-scroll {
+          fill: #fd9222;
+          width: 16px; height: 16px;
+        }
+        .hero-buttons {
+          display: flex;
+          row-gap: 0px;
+          column-gap: 14px;
+          margin: 0;
+          padding: 0;
+          align-items: baseline;
+          flex-wrap: wrap;
+        }
+        .hero-buttons-li {
+          margin-left: 0;
+          margin-top: 32px;
+        }
     }
 
 
@@ -237,6 +316,84 @@
           color: #ffffff;
           margin-bottom: 32px;
         }
+        .hero-button-one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 14px 40px;
+          width: 144px;
+          height: 45px;
+          background-color: #fd9222;
+          border-radius: 100px;
+          border: none;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: background-color, color;
+        }
+        .hero-button-two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 14px 40px;
+          border: 1px solid #ffffff;
+          border-radius: 100px;
+          background: none;
+          width: 183px;
+          height: 45px;
+          font-weight: 600;
+          font-size: 14px;
+          white-space: nowrap;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: border-color, color;
+        }
+        .hero-button-text {
+          font-weight: 500;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          line-height: 1.28;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: color;
+        }
+        .hero-scroll-button {
+          width: 38px;
+          height: 38px;
+          border: none;
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #ffffff;
+          transition: background-color;
+        }
+        .scroll-text {
+          margin-right: 14px;
+        }
+        .hero-scroll {
+          fill: #fd9222;
+          width: 22px; height: 22px;
+        }
+        .hero-buttons {
+          display: flex;
+          gap: 14px;
+          margin: 0;
+          padding: 0;
+          align-items: baseline;
+          flex-wrap: nowrap;
+        }
+        .hero-buttons-li {
+          margin-left: auto;
+        }
 }
 
 /*ADAPTATION 1200*/
@@ -275,6 +432,84 @@
           letter-spacing: -0.03em;
           color: #ffffff;
           margin-bottom: 32px;
+        }
+        .hero-button-one {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 14px 40px;
+          width: 144px;
+          height: 45px;
+          background-color: #fd9222;
+          border-radius: 100px;
+          border: none;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: background-color, color;
+        }
+        .hero-button-two {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 14px 40px;
+          border: 1px solid #ffffff;
+          border-radius: 100px;
+          background: none;
+          width: 183px;
+          height: 45px;
+          font-weight: 600;
+          font-size: 14px;
+          white-space: nowrap;
+          line-height: 1.21;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: border-color, color;
+        }
+        .hero-button-text {
+          font-weight: 500;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          line-height: 1.28;
+          font-family: 'Montserrat';
+          font-style: normal;
+          color: #ffffff;
+          transition: color;
+        }
+        .hero-scroll-button {
+          width: 38px;
+          height: 38px;
+          border: none;
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #ffffff;
+          transition: background-color;
+        }
+        .scroll-text {
+          margin-right: 14px;
+        }
+        .hero-scroll {
+          fill: #fd9222;
+          width: 22px; height: 22px;
+        }
+        .hero-buttons {
+          display: flex;
+          gap: 14px;
+          margin: 0;
+          padding: 0;
+          align-items: baseline;
+          flex-wrap: nowrap;
+        }
+        .hero-buttons-li {
+          margin-left: auto;
         }
     }
 
