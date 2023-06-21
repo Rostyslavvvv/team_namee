@@ -1,0 +1,59 @@
+<div class="backdrop-reviews is-hidden" >
+  <div class="modal-reviews"  >
+    <button type="button" class="modal-reviews-close-btn btn" >
+      <svg class="modal-reviews-close-btn-icon" width="24" height="24">
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <p class="modal-reviews-text">
+      LEAVE A REVIEW ABOUT <span class="reviews-title-text">OUR CHOCOLATE</span>
+    </p>
+
+    <form class="modal-reviews-form">
+        <label class="modal-reviews-inputs-label"></label>
+        <input
+            type="text"
+            name="user-name"
+            class="modal-reviews-input"
+            placeholder="Name"
+            pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
+            pattern="[A-Za-z]"
+          />
+        </label>
+
+        <label class="modal-reviews-inputs-label">
+       <input
+            type="mail"
+            name="user-mail"
+            class="modal-reviews-input"
+            placeholder="Email"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          />
+        </label>
+
+        <label class="modal-reviews-inputs-label">
+    
+          <input
+            type="tel"
+            name="user-phone"
+            placeholder="Phone number"
+            class="modal-reviews-input modal-reviews-input-phone"
+          />
+          <div class="border-advantages" ></div>
+          <svg class="input-icon-reviews" width="74" height="25"><use class="form-input-icon" href="./img/sprite.svg#icon-LeftInput"></use></svg>
+          </label>
+    
+        <label for="user-comment" class="modal-reviews-inputs-label">
+        <textarea
+          name="user-comment"
+          placeholder="Enter text"
+          class="modal-reviews-textarea modal-reviews-input"
+          pattern="[A-Za-z]"
+        ></textarea>
+        </label>
+
+      <button type="submit" class="modal-reviews-button-submit btn ">Send</button>
+    </form>
+  </div>
+</div>

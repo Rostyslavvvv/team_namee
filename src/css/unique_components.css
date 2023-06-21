@@ -50,7 +50,13 @@
 @media screen and (min-width: 768px) {
     .unique_components-header-block {
         width: 486px;
-        margin-bottom: 50px;
+        margin: 100px auto 50px auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .unique_components-header-block {
+        margin-top: 128px;
     }
 }
 
@@ -64,17 +70,19 @@
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: #111111;
+    color: var(--text-color);
 }
 
 .unique_components-header-orange {
-    color: #FD9222;
+    color: var(--brand-color);
 }
 
 @media screen and (min-width: 768px) {
     .unique_components-header {
         max-width: 411px;
         padding-bottom: 28px;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
 
@@ -84,7 +92,7 @@
     line-height: 18px;
     text-align: center;
     letter-spacing: -0.02em;
-    color: #111111;
+    color: var(--text-color);
 }
 
 .unique_components-products {
@@ -112,6 +120,36 @@
 @media screen and (min-width: 1200px) {
     .list-ingridients {
         gap: 18px;
+    }
+}
+
+.order-position-milk {
+    order: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .order-position-milk {
+        order: 2;
+    }
+}
+
+.order-position-choco {
+    order: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .order-position-choco {
+        order: 1;
+    }
+}
+
+.order-position {
+    order: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .order-position {
+        order: 3;
     }
 }
 
@@ -153,7 +191,7 @@
     transition: transform 0.7s ease;
     -webkit-transform: transform 0.7s ease;
     border-radius: 15px;
-    border: 1px solid #FD9222;
+    border: 1px solid var(--brand-color);
     background-color: #FFFFFF;
 
     transform: perspective(600px) rotateY(0);
@@ -171,7 +209,7 @@
     backface-visibility: hidden;
     transition: transform 0.7s ease;
     border-radius: 15px;
-    border: 1px solid #FD9222;
+    border: 1px solid var(--brand-color);
     background-color: #FFFFFF;
 
     transform: perspective(600px) rotateY(180deg);
@@ -184,7 +222,7 @@
 }
 
 .orange-card {
-    background-color: #FD9222;
+    background-color: var(--brand-color);
 }
 
 .black-card {
@@ -199,7 +237,7 @@
     line-height: 22px;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: #111111;
+    color: var(--text-color);
 }
 
 .ingridient-buttons-block {
@@ -212,7 +250,7 @@
     padding: 7px 16px;
     margin-top: 8px;
     margin-bottom: 14px;
-    background-color: #FD9222;
+    background-color: var(--brand-color);
     border: none;
     border-radius: 35px;
     font-weight: 400;
@@ -225,7 +263,7 @@
 
 .name-ingridient-button:hover {
     background-color: #FCF1E0;
-    color: #FD9222;
+    color: var(--brand-color);
 }
 
 .benefits-ingridient-button {
@@ -235,18 +273,18 @@
     margin-left: 6px;
     margin-bottom: 14px;
     background-color: #FAFAFA;
-    border: 1px solid #FD9222;
+    border: 1px solid var(--brand-color);
     border-radius: 35px;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-    color: #111111;
+    color: var(--text-color);
     transition: background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .benefits-ingridient-button:hover {
-    background-color: #FD9222;
+    background-color: var(--brand-color);
     color: #FFFFFF;
 }
 
@@ -258,26 +296,33 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
-    color: #111111;
+    color: var(--text-color);
 }
 
 .ingridient-text-box {
     /* height: 158px; */
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    /* text-overflow: ellipsis; */
 }
 
 .ingridient-text-box-mini {
     height: 146px;
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    /* text-overflow: ellipsis; */
 }
 
 @media screen and (min-width: 1200px) {
     .ingridient-text-box-mini {
         height: 128px;
+        -webkit-line-clamp: 7;
     }
 }
 
@@ -305,5 +350,5 @@
 }
 
 .name-ingridient-black {
-    color: #111111;
+    color: var(--text-color);
 }
