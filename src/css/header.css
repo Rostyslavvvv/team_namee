@@ -37,6 +37,7 @@
 .logo{
     display: flex;
     align-items: center;
+    margin-right: 188px;
  
 
     font-family: "Montserrat";
@@ -296,13 +297,15 @@ color: #FFFFFF;
         color: #111111;
 
     }
+    .main-nav-item:hover,
+    .main-nav-item:focus{
+        color: #FD9222;
+    }
     .icon-chocolate{
         width: 24px;
         height: 24px;
     }
-    .icon-chocolate{
-        margin-right: 188px;
-    }
+    
    
     
     .instagram-icon{
