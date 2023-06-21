@@ -35,9 +35,7 @@
 .logo{
     display: flex;
     align-items: center;
-    margin-right: 188px;
- 
-
+    
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 14px;
@@ -46,13 +44,6 @@
     text-transform: uppercase;
     
 
-
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
 }
 .icon-chocolate {
   margin-left: 4px;
@@ -273,11 +264,8 @@
 @media screen and (min-width: 1200px) {
   .main-nav-list {
     display: flex;
-    }
-    .main-nav-item:hover,
-    .main-nav-item:focus{
-        color: #FD9222;
- 
+    
+    
     gap: 24px;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -286,6 +274,11 @@
     letter-spacing: -0.02em;
     color: #111111;
   }
+  .main-nav-item:hover,
+    .main-nav-item:focus{
+      color: #fd9222;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   .icon-chocolate {
     width: 24px;
     height: 24px;
