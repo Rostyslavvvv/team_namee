@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper_1', {
       slidesPerView: 2,
       spaceBetween: 28,
     },
-    1158: {
+    1200: {
       slidesPerView: 3,
       spaceBetween: 28,
     },
@@ -21,6 +21,7 @@ const swiper = new Swiper('.swiper_1', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
 
   // Navigation arrows
