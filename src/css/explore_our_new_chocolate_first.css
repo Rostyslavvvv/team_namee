@@ -1,88 +1,94 @@
-.modal-close-btn-subscribe{
-   z-index: 101;
-    position: absolute;
-    top:15px;
-    right: 15px;
+.modal-close-btn-subscribe {
+  z-index: 101;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 
-   
-    background-color: transparent;
-    border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 0;
-    border-radius: 50%;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .backdrop-subscribe {
-    z-index: 100;
+  z-index: 100;
 }
-
+.text-subscribe-button {
+  display: none;
+}
+.subscribe-modal-img-desctop {
+  display: none;
+}
 .backdrop-subscribe {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
-  .modal-subscribe {
-    z-index: 999;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 311px;
-    min-height: 350px;
-    padding: 201px 24px 32px 24px;
-    background: #FAFAFA;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-  }
-  .subscribe-modal-img {
-    position: fixed;
-    justify-content: space-between;
-    width: 311px;
-    height: 169px;
-    left: 0px;
-    top: 0px;
-    border-top-left-radius: 15px;
-    border-top-right-radius:15px ;
-  }
-  .is-hidden-subscribe {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-  .modal-container-subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    width: 263px;
-    height: 136px;
-    left: 40px;
-    top: 236px;
-  }
-  .subscribe-form-title {
-    width: 298px;
-    height: 56px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #111111;
-    margin-bottom: 24px;
-  }
-  .subscribe-form-title-part {
-    color: #FD9222;
-  }
-  .subscribe-form-input {
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+.modal-subscribe {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 311px;
+  min-height: 350px;
+  padding: 201px 24px 32px 24px;
+  background: #fafafa;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.subscribe-modal-img {
+  position: fixed;
+  justify-content: space-between;
+  width: 311px;
+  height: 169px;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.is-hidden-subscribe {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal-container-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 263px;
+  height: 136px;
+  left: 40px;
+  top: 236px;
+}
+.subscribe-form-title {
+  width: 298px;
+  height: 56px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 24px;
+}
+.subscribe-form-title-part {
+  color: #fd9222;
+}
+.subscribe-form-input {
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 4px;
   background-color: transparent;
   width: 263px;
@@ -90,46 +96,89 @@
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 16px;
   border-radius: 25px;
-  }
-  .modal-subscribe-form {
-    display: flex;
+}
+.modal-subscribe-form {
+  display: flex;
   align-items: center;
   gap: 24px;
+}
+.form-submit-btn-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 17px 40px;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border: none;
+  height: 45px;
+  width: 100px;
+  color: #fff;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  isolation: isolate;
+
+  position: absolute;
+  bottom: 44px;
+  right: 24px;
+}
+.form-submit-btn:hover,
+.form-submit-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: rgba(255, 255, 255, 1);
+}
+@media screen and (min-width: 768px) {
+  .text-subscribe-button {
+    display: inline;
+  }
+  .text-submit-button {
+    display: none;
+  }
+  .subscribe-modal-img {
+    width: 538px;
+    height: 196px;
+  }
+  .modal-subscribe {
+    width: 538px;
+    height: 412px;
+  }
+  .modal-subscribe {
+    padding: 236px 40px 40px 40px;
+  }
+  .subscribe-form-input {
+    width: 313px;
+    height: 52px;
   }
   .form-submit-btn-subscribe {
+    width: 137px;
+    height: 52px;
+    position: static;
+    transform: none;
+    top: auto;
+    right: auto;
+  }
+  .subscribe-form-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 17px 40px;
-    background-color: #FD9222;
-    border-radius: 100px;
-    border: none;
-    height: 45px;
-    width: 100px;
-    color: #fff;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    isolation: isolate;
-
-    position: absolute;
-    bottom: 44px;
-    right: 24px;
+    gap: 8px;
   }
-  .form-submit-btn:hover,
-  .form-submit-btn:focus {
-    background-color: #FCF1E0;
-    color: #FD9222;
+  .subscribe-modal-img-mobil {
+    display: none;
   }
-  .modal-close-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    stroke: rgba(255, 255, 255, 1);
+  .subscribe-modal-img-desctop {
+    display: block;
   }
-
- 
+  .subscribe-form-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
