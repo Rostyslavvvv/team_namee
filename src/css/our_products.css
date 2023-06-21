@@ -1,35 +1,12 @@
-.swiper-pagination {
-  position: static;
-  display: flex;
-  column-gap: 13px;
-  justify-content: center;
-}
-
-.swiper-pagination-bullet {
-  width: 13px;
-  height: 13px;
-
-  /* background: rgba(17, 17, 17, 0.1); */
-}
-
-.swiper-pagination-bullet-active {
-  width: 28px;
-  height: 13px;
-  opacity: 1;
-  border-radius: 10px;
-  background: #fd9222;
-}
-
 .section-title {
   text-align: center;
   font-weight: 600;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111111;
 }
 
 .section-title-accent-color {
-  color: #fd9222;
+  color: var(--brand-color);
 }
 
 .card-title {
@@ -40,7 +17,6 @@
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #111111;
 }
 
 .card-desc {
@@ -58,8 +34,6 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-  color: #111111;
-  background: #fafafa;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
 }
@@ -81,11 +55,6 @@
 /* ============= Mobile styles ========== */
 
 @media screen and (min-width: 375px) {
-  .our-products {
-    padding-top: 72px;
-    padding-bottom: 72px;
-  }
-
   .our-products-list {
     margin-bottom: 20px;
   }
@@ -108,10 +77,6 @@
 /* ============ Tablet styles =========== */
 
 @media screen and (min-width: 768px) {
-  .our-products {
-    padding-bottom: 100px;
-  }
-
   .section-title {
     font-size: 24px;
     line-height: 1.17;
@@ -129,9 +94,3 @@
 }
 
 /* ========== Desktop styles ============ */
-
-@media screen and (min-width: 1200px) {
-  .our-products {
-    padding-bottom: 128px;
-  }
-}

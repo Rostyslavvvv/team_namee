@@ -17,6 +17,8 @@
             name="user-name"
             class="modal-reviews-input"
             placeholder="Name"
+            pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
+            pattern="[A-Za-z]"
           />
         </label>
 
@@ -26,6 +28,7 @@
             name="user-mail"
             class="modal-reviews-input"
             placeholder="Email"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
           />
         </label>
 
@@ -46,10 +49,11 @@
           name="user-comment"
           placeholder="Enter text"
           class="modal-reviews-textarea modal-reviews-input"
+          pattern="[A-Za-z]"
         ></textarea>
         </label>
 
-      <button type="submit" class="modal-reviews-button-submit btn">Send</button>
+      <button type="submit" class="modal-reviews-button-submit btn ">Send</button>
     </form>
   </div>
 </div>
