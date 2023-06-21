@@ -393,6 +393,7 @@
         }
         .hero-buttons-li {
           margin-left: auto;
+          margin-top: 0;
         }
 }
 
@@ -510,6 +511,7 @@
         }
         .hero-buttons-li {
           margin-left: auto;
+          margin-top: 0;
         }
     }
 
