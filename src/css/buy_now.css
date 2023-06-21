@@ -271,7 +271,6 @@
       margin-top: 4px;
       transform: translateY(-50%);
       display: block;
-      background-color: ;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       width: 100px;
       height: 32px;
@@ -338,7 +337,7 @@
 
   /*=======================================================STYLES FOR TABLET===============================================================*/
 
-  @media screen and (min-width: 768px) ,
+  @media screen and (min-width: 768px)
   {
 
     .backdrop {
@@ -609,7 +608,7 @@
       margin-top: 6px;
       transform: translateY(-50%);
       display: block;
-      background-color: ;
+  
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       width: 125px;
       height: 32px;
@@ -927,7 +926,7 @@
     margin-top: 4px;
     transform: translateY(-50%);
     display: block;
-    background-color: ;
+   
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100px;
     height: 32px;
@@ -993,7 +992,7 @@
 
 /*=======================================================STYLES FOR TABLET===============================================================*/
 
-@media screen and (min-width: 768px), {
+@media screen and (min-width: 768px) {
   .backdrop {
     position: fixed;
     top: 0;
@@ -1262,7 +1261,7 @@
     margin-top: 6px;
     transform: translateY(-50%);
     display: block;
-    background-color: ;
+    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 125px;
     height: 32px;
@@ -1322,7 +1321,7 @@
 
 /*=======================================STYLES FOR DESKTOP==============================================================*/
 
-@media screen and (min-width: 1200px), {
+@media screen and (min-width: 1200px) {
   .backdrop {
     position: fixed;
     top: 0;
@@ -1583,7 +1582,7 @@
     margin-top: 6px;
     transform: translateY(-50%);
     display: block;
-    background-color: ;
+    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 125px;
     height: 32px;
