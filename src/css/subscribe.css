@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 375px) {
   .subscribe-container {
     width: 375px;
@@ -25,7 +24,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  background-color: #1E1823;
+  background-color: #1e1823;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -110,8 +109,8 @@
   font-weight: 600;
   text-align: center;
   letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+
 }
 .subscribe-text {
   max-width: 326px;
@@ -119,7 +118,7 @@
   line-height: 1.29;
   text-align: center;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 24px auto;
 }
 .subscribe-btn {
