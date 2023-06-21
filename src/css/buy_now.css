@@ -672,8 +672,7 @@
 
 
 
-@media screen and (min-width: 1200px),
- {
+@media screen and (min-width: 1200px){
 
 .backdrop {
   position: fixed;
@@ -1714,4 +1713,5 @@
     background-color: #fcf1e0;
     transition-duration: 250ms;
   }
+}
 }
