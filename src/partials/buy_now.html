@@ -2,7 +2,7 @@
 <title>Buy now</title>
  <div
       class="backdrop is-hidden"
-      data-modal
+      
       style="
         position: fixed;
         width: 100%;
@@ -28,8 +28,7 @@
               <img
                 src="./img/modalimages/blackchocmodaldesktop.jpg"
                 alt="Black chocolate"
-                width="120"
-                height="107"
+                class="chocolateimg"
               />
               <div class="card-caption">
                 <button class="weight-btn">100 g</button>
@@ -39,8 +38,7 @@
                 <img
                   src="./img/modalimages/blackwhitechocmodaldesktop.jpg"
                   alt="Black and white chocolate"
-                  width="120"
-                  height="107"
+                  class="chocolateimg"
                 />
                 <div class="card-caption">
                   <button class="weight-btn">200 g</button>
@@ -50,8 +48,7 @@
                 <img
                   src="./img/modalimages/milkchocmodaldesktop.jpg"
                   alt="Milk chocolate"
-                  width="120"
-                  height="107"
+                  class="chocolateimg"
                 />
                 <div class="card-caption">
                     <button class="weight-btn">300 g</button>
@@ -72,6 +69,7 @@
                    required
                    pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
                    placeholder="Name"
+                   pattern="[A-Za-z]"
                    >
                     
                 </div>
@@ -89,6 +87,7 @@
                    required
                    pattern="[a-zA-Za-ľščťžýáíéäňúô]" 
                    placeholder="Surname"
+                   pattern="[A-Za-z]"
                    >
                 </div>
                   
@@ -126,9 +125,10 @@
                   class="phone-form-input" 
                   name="user-phone" 
                   placeholder="|  Phone number"
+                  required
 
                 />
-                <svg class="input-icon" width="125" height="32"><use class="form-input-icon" href="./img/sprite.svg#icon-LeftInput"></use></svg>
+                <svg class="input-icon" ><use class="form-input-icon" href="./img/sprite.svg#icon-LeftInput"></use></svg>
               
             </div>
             </div>
@@ -142,6 +142,7 @@
                     class="card-form-input" 
                     name="user-card" 
                     placeholder="Enter card"
+                    required
   
                   />
                   <svg class="card-input-icon" width="32" height="24"><use class="form-input-icon" href="./img/sprite.svg#icon-Mastercard"></use></svg>
@@ -157,6 +158,8 @@
                     class="form-comment" 
                     name="user-comment" 
                     placeholder="Enter text"
+                    pattern="[A-Za-z]"
+                    
                     >
                  
                     
