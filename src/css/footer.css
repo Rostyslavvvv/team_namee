@@ -1,4 +1,4 @@
-.container {
+.footer-container {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
@@ -6,7 +6,7 @@
 
 .footer-section {
   padding: 32px 0;
-  background-color: #1E1823;
+  background-color: #1e1823;
 }
 
 .footer-title {
@@ -15,12 +15,12 @@
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 32px;
 }
 
 .footer-title-accent {
-  color: #FD9222;
+  color: var(--brand-color);
 }
 
 .footer-information-section {
@@ -33,7 +33,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 14px;
 }
 
@@ -42,8 +42,9 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list {
@@ -55,7 +56,8 @@
   width: 18px;
   height: 18px;
   fill: none;
-  stroke: #FFFFFF;
+  stroke: #ffffff;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-menu-section {
@@ -74,11 +76,12 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .footer-container {
     max-width: 704px;
     margin: 0 auto;
     padding: 0 32px;
@@ -86,7 +89,6 @@
 
   .footer-section {
     padding: 50px 0;
-    background-color: #1E1823;
   }
 
   .footer-information-section {
@@ -96,7 +98,7 @@
   .footer-infocontact-section {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 54px;
   }
 
   .footer-title {
@@ -110,7 +112,7 @@
   }
 
   .footer-contact-section-list-item a:focus {
-    color: #FD9222;
+    color: var(--brand-color);
   }
 
   .footer-social-list {
@@ -123,7 +125,7 @@
   }
 
   .footer-social-list-item .footer-social-list-link:focus .footer-social-logo {
-    stroke: #FD9222;
+    stroke: var(--brand-color);
   }
 
   .footer-menu-list {
@@ -137,18 +139,17 @@
   }
 
   .footer-menu-list-item a:focus {
-    color: #FD9222;
+    color: var(--brand-color);
   }
 }
 
-@media screen and (min-width: 1158px){
-
-  .container {
+@media screen and (min-width: 1200px) {
+  .footer-container {
     max-width: 1136px;
   }
 
-  .footer-section {
-    padding: 32px 0;
+  .footer-infocontact-section {
+    padding-bottom: 62px;
   }
 
   .footer-contact-section {
@@ -156,15 +157,14 @@
   }
 
   .footer-contact-section-list-item:hover {
-    color: #FD9222;
+    color: var(--brand-color);
   }
 
   .footer-social-logo:hover {
-    stroke: #FD9222;
+    stroke: var(--brand-color);
   }
 
   .footer-menu-list-item:hover {
-    color: #FD9222;
+    color: var(--brand-color);
   }
-
 }

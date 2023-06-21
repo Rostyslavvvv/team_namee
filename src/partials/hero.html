@@ -1,20 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section class="hero">
-        <div class="hero-div container">
-            <h1 class="hero-h">Treat yourself or a loved one to 
-                our finest ingredients for a moment 
-                of pure delight!</h1>
-            <button class="hero-button" type="button">Buy now</button>
-            <button class="hero-button-two" type="button">How it`s made</button>
-            <button class="hero-button-three" type="button">Scroll down</button>
-        </div>
-    </section>
-</body>
-</html>
+<section class="hero">
+  <div class="hero-container">
+    <h2 hidden>Hero</h2>
+    <h2 class="hero-h">
+      Treat yourself or a loved one to <br />
+      our finest ingredients for a moment of pure delight!
+    </h2>
+    <ul class="hero-buttons">
+      <li>
+        <button class="hero-button-one" type="button">Buy now</button>
+      </li>
+      <li>
+        <a class="hero-button-two" href="#how-its-made">How it`s made</a>
+      </li>
+      <li class="hero-buttons-li">
+        <a class="hero-button-text" href="#footer">
+          <div class="scroll-text">scroll down</div>
+          <span class="hero-scroll-button">
+            <svg width="22" height="22" class="hero-scroll">
+              <use href="./img/sprite.svg#icon-bottom"></use>
+            </svg>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>

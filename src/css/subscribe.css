@@ -1,0 +1,177 @@
+@media screen and (min-width: 375px) {
+  subscribe-container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  subscribe-container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-container {
+    width: 1200px;
+  }
+}
+.subscribe-section {
+  min-width: 320px;
+  max-width: 375px;
+  padding-top: 62px;
+  padding-bottom: 63px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  background-color: #1e1823;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-mobile.jpg');
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-mobile@2x.jpg');
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-tablet.jpg');
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-tablet@2x.jpg');
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-desktop.jpg');
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  (min-resolution: 192dpi) and (min-width: 1200px),
+  (min-resolution: 2dppx) and (min-width: 1200px) {
+  .subscribe-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('/img/subscribe/subscribe-desktop@2x.jpg');
+  }
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.subscribe-title {
+  max-width: 291px;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.subscribe-text {
+  max-width: 326px;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 24px auto;
+}
+.subscribe-btn {
+  display: block;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: #ffffff;
+  min-width: 128px;
+  padding: 12px 28px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color rgba(252, 241, 224, 1),
+    color rgba(253, 146, 34, 1);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  color: rgba(253, 146, 34, 1);
+  background-color: rgba(252, 241, 224, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .subscribe-section {
+    max-width: 768px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .subscribe-title {
+    max-width: 378px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+  .subscribe-text {
+    max-width: 468px;
+  }
+
+  .subscribe-btn {
+    min-width: 172px;
+    padding: 14px 40px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-section {
+    max-width: 1200px;
+  }
+}
