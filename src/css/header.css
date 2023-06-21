@@ -35,8 +35,9 @@
 }
 
 .logo{
-    display: block;
-    margin-right: 4px;
+    display: flex;
+    align-items: center;
+ 
 
     font-family: "Montserrat";
     font-weight: 700;
@@ -48,6 +49,7 @@
 
 }
 .icon-chocolate{
+    margin-left: 4px;
     width: 21px;
     height: 21px;
     
@@ -141,6 +143,7 @@
     padding-top: 136px;
     padding-left: 20px;
     padding-bottom: 20px;
+    padding-right: 20px;
     
     
 }
