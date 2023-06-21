@@ -1,18 +1,18 @@
 
 @media screen and (min-width: 375px) {
-  .subscribe-section {
+  subscribe-container {
     width: 375px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .subscribe-section {
+  subscribe-container {
     width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .subscribe-section {
+  .subscribe-container {
     width: 1200px;
   }
 }
