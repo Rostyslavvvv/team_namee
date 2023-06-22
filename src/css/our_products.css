@@ -52,6 +52,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+.section-title{
+  margin-bottom: 32px;
+}
+.swiper-pagination{
+  margin-top: 20px;
+}
 
 /* ============= Mobile styles ========== */
 
@@ -91,6 +97,9 @@
   .our-products-item {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .swiper-pagination{
+    margin-top: 32px;
   }
 }
 
