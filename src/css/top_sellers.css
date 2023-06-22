@@ -1,11 +1,13 @@
 .top-sellers-item {
   margin-top: 32px;
-
+}
   @media screen and (min-width: 768px) {
+    .top-sellers-item{
     margin-top: 0;
     width: calc((100% - 16px) / 2);
   }
 }
+
 .choco-tower-item {
   @media screen and (max-width: 1199px) {
     display: none;
