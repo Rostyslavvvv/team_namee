@@ -1,5 +1,5 @@
 .item-advantages .text-advantages {
-  width: 308px;
+  max-width: 308px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
