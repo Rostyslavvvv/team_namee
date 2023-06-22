@@ -147,7 +147,7 @@
 }
 
 .card-ingridient {
-  width: 335px;
+  width: 320px;
   height: 270px;
   position: relative;
 }
@@ -315,13 +315,13 @@
 }
 
 .ingridients-item-img {
-  width: 224px;
+  max-width: 100%;
   margin: 28px 56px 24px 56px;
 }
 
 @media screen and (min-width: 1200px) {
   .ingridients-item-img {
-    width: 206px;
+    max-width: 100%;
     margin: 28px 36px 36px 28px;
   }
 }
