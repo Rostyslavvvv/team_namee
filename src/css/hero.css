@@ -59,7 +59,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
-  transition: background-color, color;
+  transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } /*250ms cubic-bezier(0.4, 0, 0.2, 1)*/
 .hero-button-one:hover,
 .hero-button-one:focus {
@@ -83,7 +83,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
-  transition: border-color, color;
+  transition: border-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } /*250ms cubic-bezier(0.4, 0, 0.2, 1)*/
 .hero-button-two:hover,
 .hero-button-two:focus {
@@ -100,7 +100,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   color: #ffffff;
-  transition: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } /*250ms cubic-bezier(0.4, 0, 0.2, 1)*/
 .hero-button-text:hover,
 .hero-button-text:focus {
@@ -124,7 +124,7 @@
   justify-content: center;
   align-items: center;
   background: #ffffff;
-  transition: background-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } /*250ms cubic-bezier(0.4, 0, 0.2, 1)*/
 .hero-scroll-button:hover {
   background-color: #fd9222;
@@ -218,7 +218,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: background-color, color;
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-two {
     display: flex;
@@ -237,7 +237,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: border-color, color;
+    transition: border-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-text {
     font-weight: 500;
@@ -249,7 +249,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-scroll-button {
     width: 28px;
@@ -260,7 +260,7 @@
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    transition: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .scroll-text {
     margin-right: 12px;
@@ -352,7 +352,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: background-color, color;
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-two {
     display: flex;
@@ -371,7 +371,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: border-color, color;
+    transition: border-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-text {
     font-weight: 500;
@@ -383,7 +383,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-scroll-button {
     width: 38px;
@@ -394,7 +394,7 @@
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    transition: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .scroll-text {
     margin-right: 14px;
@@ -482,7 +482,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: background-color, color;
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-two {
     display: flex;
@@ -501,7 +501,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: border-color, color;
+    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-button-text {
     font-weight: 500;
@@ -513,7 +513,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     color: #ffffff;
-    transition: color;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .hero-scroll-button {
     width: 38px;
@@ -524,7 +524,7 @@
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    transition: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .scroll-text {
     margin-right: 14px;
