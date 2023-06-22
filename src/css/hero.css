@@ -165,7 +165,7 @@
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppi) {
+    (min-resolution: 2dpi) {
     .hero {
       background-image: linear-gradient(
           180deg,
@@ -299,7 +299,7 @@
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppi) {
+    (min-resolution: 2dpi) {
     .hero {
       background-image: linear-gradient(
           180deg,
@@ -432,7 +432,7 @@
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppi) {
+    (min-resolution: 2dpi) {
     .hero {
       background-image: linear-gradient(
           180deg,
