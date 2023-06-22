@@ -8,8 +8,9 @@
   }
 }
 
-.choco-tower-item {
+ 
   @media screen and (max-width: 1199px) {
+    .choco-tower-item{
     display: none;
     width: calc((100% - 16px) / 3);
   }
@@ -52,11 +53,12 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111111;
-
+}
   @media screen and (min-width: 768px) {
+    .top-sellers-text-mob{
     display: none;
   }
-}
+  }
 
 .top-sellers-text {
   max-width: 306px;
@@ -65,11 +67,14 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #111111;
-
+}
   @media screen and (max-width: 767px) {
+    .top-sellers-text{
     display: none;
   }
+}
   @media screen and (min-width: 1200px) {
+    .top-sellers-text{
     max-width: 407px;
   }
 }
@@ -84,8 +89,9 @@
   border: none;
   min-width: 120px;
   height: 41px;
-
+}
   @media screen and (min-width: 768px) {
+    .top-sellers-btn{
     min-width: 162px;
     height: 50px;
     font-size: 18px;
@@ -102,8 +108,9 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
+}
   @media screen and (min-width: 768px) {
+    .text-button-wrapper{
     justify-content: space-between;
     margin-top: 32px;
   }
