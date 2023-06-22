@@ -168,8 +168,8 @@
   bottom: 44px;
   right: 24px;
 }
-.form-submit-btn:hover,
-.form-submit-btn:focus {
+.form-submit-btn-subscribe:hover,
+.form-submit-btn-subscribe:focus {
   background-color: #fcf1e0;
   color: #fd9222;
 }
