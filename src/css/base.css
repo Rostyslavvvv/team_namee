@@ -84,6 +84,9 @@ p {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+ 
+}
+.section-padding{
   padding-top: 72px;
 }
   @media screen and (min-width: 768px) {
@@ -91,12 +94,17 @@ p {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    
+  }
+  .section-padding{
     padding-top: 100px;
   }
 }
   @media screen and (min-width: 1200px) {
     .container{
     max-width: 1200px;
+  }
+  .section-padding{
     padding-top: 128px;
   }
 }

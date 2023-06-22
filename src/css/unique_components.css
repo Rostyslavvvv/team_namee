@@ -49,13 +49,7 @@
 @media screen and (min-width: 768px) {
   .unique_components-header-block {
     width: 486px;
-    margin: 100px auto 50px auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .unique_components-header-block {
-    margin-top: 128px;
+    margin: 0 auto 50px auto;
   }
 }
 
