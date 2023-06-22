@@ -16,6 +16,14 @@ closeButtonD.addEventListener('click', () => {
   closeModal(modalD);
 });
 
+// Отримати кнопку "Submit" з форми в модальному вікні
+const submitButton = document.querySelector('.form-submit-btn-subscribe');
+// Додати обробник події для кнопки "Submit"
+submitButton.addEventListener('click', (event) => {
+  event.preventDefault(); // Заборонити перезавантаження сторінки при натисканні кнопки "Submit"
+  closeModal(modalD);
+});
+
 // Функція для відкриття модального вікна
 function openModal(modal) {
   modal.classList.remove('is-hidden');
