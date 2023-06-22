@@ -21,13 +21,14 @@
 .top-sellers-list {
   display: flex;
   flex-direction: column;
-
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 16px;
-    margin-top: 50px;
-  }
+}
+@media screen and (min-width: 768px) {
+  .top-sellers-list{
+    display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 50px;
+}
 }
 
 .sellers-section-title {
