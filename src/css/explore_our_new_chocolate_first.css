@@ -140,6 +140,10 @@
   padding-left: 16px;
   border-radius: 25px;
 }
+::placeholder {
+  color: rgba(64, 64, 64, 0.3);
+}
+
 .modal-subscribe-form {
   display: flex;
   align-items: center;
