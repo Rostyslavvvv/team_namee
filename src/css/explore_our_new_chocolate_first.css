@@ -136,10 +136,14 @@
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: rgba(46, 47, 66, 0.4);
   padding-left: 16px;
   border-radius: 25px;
 }
+::placeholder {
+  color: rgba(64, 64, 64, 0.3);
+}
+
 .modal-subscribe-form {
   display: flex;
   align-items: center;
